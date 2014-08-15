@@ -15,13 +15,14 @@
 		94B3DFA3199DA82C00078FB8 /* NCCCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B3DFA2199DA82C00078FB8 /* NCCCAppDelegate.m */; };
 		94B3DFA6199DA82C00078FB8 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94B3DFA4199DA82C00078FB8 /* Main_iPhone.storyboard */; };
 		94B3DFA9199DA82C00078FB8 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94B3DFA7199DA82C00078FB8 /* Main_iPad.storyboard */; };
-		94B3DFAC199DA82C00078FB8 /* NCCCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B3DFAB199DA82C00078FB8 /* NCCCViewController.m */; };
+		94B3DFAC199DA82C00078FB8 /* NCCCHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B3DFAB199DA82C00078FB8 /* NCCCHomePageViewController.m */; };
 		94B3DFAE199DA82C00078FB8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94B3DFAD199DA82C00078FB8 /* Images.xcassets */; };
 		94B3DFB5199DA82C00078FB8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B3DFB4199DA82C00078FB8 /* XCTest.framework */; };
 		94B3DFB6199DA82D00078FB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B3DF92199DA82C00078FB8 /* Foundation.framework */; };
 		94B3DFB7199DA82D00078FB8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B3DF96199DA82C00078FB8 /* UIKit.framework */; };
 		94B3DFBF199DA82D00078FB8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94B3DFBD199DA82D00078FB8 /* InfoPlist.strings */; };
 		94B3DFC1199DA82D00078FB8 /* New_CovTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B3DFC0199DA82D00078FB8 /* New_CovTests.m */; };
+		94B3DFCD199DA95000078FB8 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 94B3DFCC199DA95000078FB8 /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,14 +48,15 @@
 		94B3DFA2199DA82C00078FB8 /* NCCCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NCCCAppDelegate.m; sourceTree = "<group>"; };
 		94B3DFA5199DA82C00078FB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		94B3DFA8199DA82C00078FB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		94B3DFAA199DA82C00078FB8 /* NCCCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NCCCViewController.h; sourceTree = "<group>"; };
-		94B3DFAB199DA82C00078FB8 /* NCCCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NCCCViewController.m; sourceTree = "<group>"; };
+		94B3DFAA199DA82C00078FB8 /* NCCCHomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NCCCHomePageViewController.h; sourceTree = "<group>"; };
+		94B3DFAB199DA82C00078FB8 /* NCCCHomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NCCCHomePageViewController.m; sourceTree = "<group>"; };
 		94B3DFAD199DA82C00078FB8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		94B3DFB3199DA82C00078FB8 /* New CovTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "New CovTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94B3DFB4199DA82C00078FB8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		94B3DFBC199DA82D00078FB8 /* New CovTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "New CovTests-Info.plist"; sourceTree = "<group>"; };
 		94B3DFBE199DA82D00078FB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		94B3DFC0199DA82D00078FB8 /* New_CovTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = New_CovTests.m; sourceTree = "<group>"; };
+		94B3DFCC199DA95000078FB8 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,12 +116,13 @@
 		94B3DF98199DA82C00078FB8 /* New Cov */ = {
 			isa = PBXGroup;
 			children = (
+				94B3DFCC199DA95000078FB8 /* logo.png */,
 				94B3DFA1199DA82C00078FB8 /* NCCCAppDelegate.h */,
 				94B3DFA2199DA82C00078FB8 /* NCCCAppDelegate.m */,
 				94B3DFA4199DA82C00078FB8 /* Main_iPhone.storyboard */,
 				94B3DFA7199DA82C00078FB8 /* Main_iPad.storyboard */,
-				94B3DFAA199DA82C00078FB8 /* NCCCViewController.h */,
-				94B3DFAB199DA82C00078FB8 /* NCCCViewController.m */,
+				94B3DFAA199DA82C00078FB8 /* NCCCHomePageViewController.h */,
+				94B3DFAB199DA82C00078FB8 /* NCCCHomePageViewController.m */,
 				94B3DFAD199DA82C00078FB8 /* Images.xcassets */,
 				94B3DF99199DA82C00078FB8 /* Supporting Files */,
 			);
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94B3DFA9199DA82C00078FB8 /* Main_iPad.storyboard in Resources */,
+				94B3DFCD199DA95000078FB8 /* logo.png in Resources */,
 				94B3DFAE199DA82C00078FB8 /* Images.xcassets in Resources */,
 				94B3DFA6199DA82C00078FB8 /* Main_iPhone.storyboard in Resources */,
 				94B3DF9D199DA82C00078FB8 /* InfoPlist.strings in Resources */,
@@ -254,7 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94B3DFAC199DA82C00078FB8 /* NCCCViewController.m in Sources */,
+				94B3DFAC199DA82C00078FB8 /* NCCCHomePageViewController.m in Sources */,
 				94B3DF9F199DA82C00078FB8 /* main.m in Sources */,
 				94B3DFA3199DA82C00078FB8 /* NCCCAppDelegate.m in Sources */,
 			);

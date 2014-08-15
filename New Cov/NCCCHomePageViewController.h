@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NCCCViewController : UIViewController
+@interface NCCCHomePageViewController : UIViewController
 
 @end
